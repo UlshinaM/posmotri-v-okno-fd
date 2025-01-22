@@ -65,7 +65,6 @@ ol {
 /*Создаем лейаут сайта. Начало*/
 
 .content {
-  height: 534px; 
   width: 1140px;
   display: grid;
   grid-template-columns: 711px 399px; 
@@ -118,7 +117,7 @@ ol {
 .content__list-container {
   position: relative;
   height: 298px; 
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list {
@@ -223,7 +222,7 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  display: inline-block;
+  display: flex;
 }
 
 .button {
